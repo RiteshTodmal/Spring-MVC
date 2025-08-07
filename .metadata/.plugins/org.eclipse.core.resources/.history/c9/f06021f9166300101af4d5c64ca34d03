@@ -1,0 +1,24 @@
+package com.ninfinity.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ninfinity.beans.Student;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+
+	public int createStudent(Student student) {
+		Student s1 = new Student();
+		s1.getId();
+		s1.getFirstName();
+		s1.getLastName();
+		s1.getCity();
+		String query = "insert into student values()";
+		
+		return 0;
+	}
+	
+	
+	
+
+}

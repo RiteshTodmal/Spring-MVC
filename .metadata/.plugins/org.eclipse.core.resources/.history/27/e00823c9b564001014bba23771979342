@@ -1,0 +1,13 @@
+package com.ninfinity.services;
+
+public class PaymentService {
+	
+	
+	public void makePayment() {
+		System.out.println("Payment Service Started");
+		
+		
+		
+		System.out.println("Payment Service Started");
+	}
+}

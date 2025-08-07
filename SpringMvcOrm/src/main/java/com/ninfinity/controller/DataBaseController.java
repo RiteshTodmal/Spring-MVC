@@ -1,0 +1,35 @@
+package com.ninfinity.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ninfinity.beans.Student;
+import com.ninfinity.service.StudentService;
+
+
+@Controller
+public class DataBaseController {
+	
+	@Autowired
+	StudentService studentService;
+	
+	@RequestMapping("/showStudentEntryPage")
+	public String showStudentEntryPage() {
+		return "studentEntryPage";
+	}
+	
+	
+	@RequestMapping("/studentEntry")
+	public String showStudentUpdateSuccess(
+			@ModelAttribute("student") Student student
+			) {
+		System.out.println(student);
+		
+		int i = studentService.createStudent(student);
+		
+		return "StudentUpdateSuccess";
+	}
+
+}

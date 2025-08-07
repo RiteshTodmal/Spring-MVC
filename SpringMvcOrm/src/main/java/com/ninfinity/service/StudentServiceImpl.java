@@ -1,0 +1,20 @@
+package com.ninfinity.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ninfinity.beans.Student;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+		
+	public int createStudent(Student student) {
+		
+		
+		
+		return 0;
+	}
+	
+	
+	
+
+}

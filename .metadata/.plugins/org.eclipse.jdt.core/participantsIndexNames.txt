@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\Java FullSatck\SpringMvc1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\679530387.index
+\SpringMVC1\src\main\resources
+D:\Java FullSatck\SpringMvc1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3392118682.index
+\SpringMVC1\src\main\java
+D:\Java FullSatck\SpringMvc1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\597245279.index
+\SpringMvcOrm\src\main\resources
+D:\Java FullSatck\SpringMvc1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\238545544.index
+\SpringMVC1\src\main\java
+D:\Java FullSatck\SpringMvc1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\777707335.index
+\SpringMvcOrm\src\main\java

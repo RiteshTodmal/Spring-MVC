@@ -1,0 +1,5 @@
+package com.ninfinity.services;
+
+public class PaymentService {
+
+}
